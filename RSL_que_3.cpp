@@ -1,5 +1,7 @@
 /*
-Write a program to find the equilibrium element from an integer array. An equilibrium element is defined as the number for which the sum of left side elements is equal to sum of right side elements.
+Write a program to find the equilibrium element from an integer array. 
+An equilibrium element is defined as the number for which, 
+the sum of left side elements is equal to sum of right side elements.
 Note: If no possible combination exists return 0.
 */
 
