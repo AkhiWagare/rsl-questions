@@ -1,6 +1,15 @@
-/* 
+/*
 ya que madhe aaplyala ek string dileli aahe, jya madhe tya string madhle words '.' ni seperated aahe.
 aaplyala har ek alternate words (means '.' chya nntr che) la replace krayche aahe with "xyz" without using any inbuilt functions.
+*/
+
+/*
+Example :-
+    Input 1 ==> i.like.the.way.you.smile
+    Output 1 ==> i.xyz.the.xyz.you.xyz
+
+    Input 2 ==> i.like.the.way.you.smile.akhi
+    Output 2 ==> i.xyz.the.xyz.you.xyz.akhi
 */
 
 #include <bits/stdc++.h>

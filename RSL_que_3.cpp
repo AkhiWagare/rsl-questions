@@ -1,8 +1,17 @@
 /*
-Write a program to find the equilibrium element from an integer array. 
-An equilibrium element is defined as the number for which, 
+Write a program to find the equilibrium element from an integer array.
+An equilibrium element is defined as the number for which,
 the sum of left side elements is equal to sum of right side elements.
 Note: If no possible combination exists return 0.
+*/
+
+/* 
+Example :-
+    Input 1 ==> 1 7 5 2 6
+    Output 1 ==> 5
+
+    Input 2 ==> 1 4 5 2 6
+    Output 2 ==> 0
 */
 
 #include <bits/stdc++.h>
@@ -29,7 +38,7 @@ int solve(vector<int> vec)
 
 int main()
 {
-    vector<int> vec{1, 7, 5, 2, 6};
+    vector<int> vec{1, 4, 5, 2, 6};
     int ans = solve(vec);
     cout << ans << endl;
 }

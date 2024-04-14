@@ -6,6 +6,15 @@ You may assume that ‘encoded_string’ will only consist of lower case alphabe
 Note: The ‘encoded_string’ can be nested as well. Refer example 2 for clarification.
 */
 
+/* 
+Example :-
+    Input 1 ==> 3[a]2[bc]
+    Output 1 ==> aaabcbc
+
+    Input 2 ==> 3[a2[c]]
+    Output 2 ==> accaccacc
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

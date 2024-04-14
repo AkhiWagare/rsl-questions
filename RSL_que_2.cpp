@@ -3,6 +3,15 @@ Binary string vaala que hota, jya madhe aaplyala ek binary string dileli aahe.
 tya binary string la aaplyala rearrange kraych aahe, ashya way madhe, jyane krun toh ek maximum possible odd number bnnr.
 */
 
+/*
+Example :-
+    Input 1 ==> 010
+    Output 1 ==> 001
+
+    Input 2 ==> 01010
+    Output 2 ==> 10001
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

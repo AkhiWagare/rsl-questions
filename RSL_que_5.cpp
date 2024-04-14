@@ -1,4 +1,4 @@
-/* 
+/*
 Given a string ‘s’ consisting only of characters 'a', 'b', and 'c'. You are asked to apply the following algorithm on the string any number of times:
 1. Pick a non-empty prefix from the string ‘s’ where all the characters in the prefix are the same.
 2. Pick a non-empty suffix from the string ‘s’ where all the characters in this suffix are the same.
@@ -6,6 +6,15 @@ Given a string ‘s’ consisting only of characters 'a', 'b', and 'c'. You are 
 4. The characters from the prefix and suffix must be the same.
 5. Delete both the prefix and the suffix.
 6. Return the minimum length of ‘s’ after performing the above operation any number of times (possibly zero times).
+*/
+
+/*
+Example :-
+    Input 1 ==> ca
+    Output 1 ==> 2
+
+    Input 2 ==> aabccabba
+    Output 2 ==> 3
 */
 
 #include <bits/stdc++.h>
